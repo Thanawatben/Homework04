@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1200px;
+    margin: auto;
+    background-color: snow;
+}
+header{
+    padding: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+.top{
+    display: flex;
+    padding: 20px;
+    min-height: 350px;
+    align-items: center;
+    justify-content: space-around;
+}
+.hi{
+    padding-top: 100px;
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    gap: 20px;
+}
+.hi p{
+    width: 80%;
+}
+.hi button{
+    border: none;
+    color: white;
+    background-color: crimson;
+    height: 50px;
+    width: 160px;
+}
+.profile{
+    padding:20px;
+    width: 400px;
+}
+.circle img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+} 
+.recent{
+    min-height: 60px;
+    width: 100%;
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.recent p{
+    font-size: 1.5rem;
+    margin-inline: 80px;
+}
+.recent a{
+    text-decoration: none;
+    margin-right: 50px;
+}
+/* middle box */
+.middle{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    min-height: 300px;
+    background-color: skyblue;
+}
+.box1{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 45%;
+    height: 250px;
+    background-color: white;
+}
+/* main work */
+.work{
+    padding-top: 20px;
+    padding-left: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 800px;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+.photo img{
+    width: 300px;
+    border-radius: 30px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.text p{
+    width: 20px;
+}
+.dash{
+    align-items: center;
+    display: flex;
+    gap: 40px;
+}
+span{
+    padding: 4px;
+    color: white;
+    border-radius: 20px;
+    background-color: darkblue;
+}
+nav{
+    width: 700px;
+}
+hr{
+    width: 1000px;
+    border: 1px solid whitesmoke;
+}
+/* bottom */
+
+.bottom{
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.icon i{
+    padding: 10px;
+    font-size: 30px;
+    
+}
